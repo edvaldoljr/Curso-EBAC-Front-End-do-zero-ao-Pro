@@ -24,7 +24,7 @@
 - Descrição
 - Interação
 
-## Formatação de Textos
+## Aula 3 - Formatação de Textos
 
 - Destaque 
 - Hierarquia 
