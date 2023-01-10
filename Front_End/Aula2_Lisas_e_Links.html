@@ -1,11 +1,19 @@
 <!DOCTYPE html>
+<!-- Você deve sempre incluir o langatributo dentro da <html>tag, para declarar o idioma da página da Web. Isso se destina a ajudar os motores de busca e navegadores.
+O exemplo a seguir especifica o portugues - Brasil como o idioma: -->
 <html lang="pt-br">
 	<header> 
 		<title> HTML - Listas e Links </title>
 		<meta charset="UTF-8">
 	</header>
 	<body>
-		<h1>Lista e Links</h1>
+
+		<!-- O style atributo é usado para adicionar estilos a um elemento, como cor, fonte, tamanho e muito mais -->
+		<h1 style="color:red;">Lista e Links</h1>
+
+		<!-- O title atributo define algumas informações extras sobre um elemento.
+			O valor do atributo title será exibido como uma dica de ferramenta quando você passar o mouse sobre o elemento: -->
+			<p title="I'm a tooltip">This is a paragraph.</p>
 
 		<h2 id="lista-nao-ordenada">Lista não ordenada</h2>
 		<ul>
@@ -110,10 +118,16 @@
 		<nav>
 			<ul>
 				<!-- link esterno -->
+				<!-- O destino do link é especificado no href atributo. -->
+				<!-- A <a>tag define um hiperlink. O href atributo especifica a URL da página para a qual o link vai -->
 				<li><a href="https://ebaconline.com.br/full-stack-java">Link curso Profissão: Desenvolvedor Full Stack Java</a></li>
 				<li><a href="#top">Voltar ao topo da página</a> <br></li>
 				<li><a href="#lista-nao-ordenada">Voltar a Lista não Ordenada</a></li>
 			</ul>
 		</nav>
+		<a href="file:///C:/Users/Edvaldojr/Documents/Curso-EBAC-Front-End-do-zero-ao-Pro/Front_End/Aula1_Introducao_HTML.html" target="_blank">Anterior</a></li>
+		<br>
+		<a href="file:///C:/Users/Edvaldojr/Documents/Curso-EBAC-Front-End-do-zero-ao-Pro/Front_End/Aula3_Formatacao_de_texto.html" target="_blank">Proxima pagina</a></li>
+		<div>
 	</body>
 </html>
